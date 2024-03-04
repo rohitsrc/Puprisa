@@ -1,5 +1,8 @@
 /*** Spinner Start ***/
-
+#body{
+	font-family:"Futura Md BT Medium";
+	
+	}
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -163,7 +166,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background: rgba(0, 0, 0, .6);
+   
 }
 
 .carousel-caption {
@@ -259,6 +262,17 @@
     opacity: 1;
 }
 
+.carousel-content h6{
+	font-family:'Palatino Linotype';
+	font-style:italic;
+	}
+
+.carousel-content h1{
+	font-family: 'Montserrat';
+	font-style:bold;
+
+	}
+
 @media (max-width: 992px) {
     .carousel-item {
         min-height: 500px;
@@ -280,12 +294,12 @@
 
 @media (max-width: 768px) {
     .carousel-item {
-        min-height: 400px;
+        min-height: 70%;
     }
     
     .carousel-item img {
-        min-height: 400px;
-        object-fit: cover;
+        min-height: 70%;
+       
     }
 
     .carousel-item h1 {
@@ -484,6 +498,8 @@
     background: rgba(239, 239, 241, 0.8);
 }
 
+
+
 .team-content::before {
     height: 200px;
     display: block;
@@ -663,4 +679,41 @@
     border: 0;
 }
 
+.container p{
+
+	font-family: 'poppins', sans-serif !important;
+	
+	}
+	
+	.container h5{
+
+	font-family:'Palatino Linotype';
+	font-style:italic;
+	
+	}
+	
+	.container h1{
+	font-family: 'Montserrat';
+	font-style:bold;
+
+	}
+
+.container-fluid h1{
+	font-family: 'Montserrat';
+	font-style:bold;
+
+	}
+	
+	.container-fluid p{
+	font-family: 'poppins', sans-serif !important;
+
+	}
+.container-fluid h4{
+	font-family: 'Montserrat';
+	font-style:bold;
+
+	}
+
+
+}
 /*** Footer End ***/
