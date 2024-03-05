@@ -661,6 +661,7 @@
 
 
 /*** Footer Start ***/
+.footer {margin-bottom: -100px;}
 
 .footer .short-link a,
 .footer .help-link a,
